@@ -129,6 +129,9 @@ String result = future.get(); // Поток блокируется здесь
 3. **Вычисления**: Для CPU-bound задач используйте platform threads с ограниченным пулом
 4. **Синхронизация**: Заменяйте synchronized на ReentrantLock для virtual threads
 
+[ReentrantLock](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/ReentrantLock.html)
+[Virtual-Threads](https://docs.oracle.com/en/java/javase/21/core/virtual-threads.html)
+
 ```java
 // Современный подход с Virtual Threads и CompletableFuture
 public class ModernAsyncExample {
