@@ -124,13 +124,11 @@ String result = future.get(); // Поток блокируется здесь
 
 ## Рекомендации по использованию
 
-1. **Новые проекты**: Используйте Virtual Threads для IO-bound задач
+1. **Новые проекты**: Используйте [Virtual Threads](https://docs.oracle.com/en/java/javase/21/core/virtual-threads.html) для IO-bound задач
 2. **Существующий код**: Постепенно мигрируйте с CompletableFuture на Virtual Threads
 3. **Вычисления**: Для CPU-bound задач используйте platform threads с ограниченным пулом
-4. **Синхронизация**: Заменяйте synchronized на ReentrantLock для virtual threads
+4. **Синхронизация**: Заменяйте synchronized на [ReentrantLock](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/ReentrantLock.html) для virtual threads
 
-[ReentrantLock](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/ReentrantLock.html)
-[Virtual-Threads](https://docs.oracle.com/en/java/javase/21/core/virtual-threads.html)
 
 ```java
 // Современный подход с Virtual Threads и CompletableFuture
