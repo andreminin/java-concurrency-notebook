@@ -1,0 +1,8 @@
+org/lucentrix/demo/async/weather/TestUtils.class
+org/lucentrix/demo/async/weather/TestWeatherSources$SlowWeatherSource.class
+org/lucentrix/demo/async/weather/TestWeatherSources$RandomWeatherSource.class
+org/lucentrix/demo/async/weather/TestWeatherSources$FailingWeatherSource.class
+org/lucentrix/demo/async/weather/TestWeatherSources.class
+org/lucentrix/demo/async/weather/WeatherServiceTest.class
+org/lucentrix/demo/async/weather/TestWeatherSources$FastWeatherSource.class
+org/lucentrix/demo/async/weather/WeatherServiceTest$1.class

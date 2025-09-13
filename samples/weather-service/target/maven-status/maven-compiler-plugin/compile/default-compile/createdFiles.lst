@@ -1,0 +1,5 @@
+org/lucentrix/demo/async/weather/WeatherResult.class
+org/lucentrix/demo/async/weather/WeatherSource.class
+org/lucentrix/demo/async/weather/WeatherService.class
+org/lucentrix/demo/async/weather/WeatherData.class
+org/lucentrix/demo/async/weather/WeatherException.class
