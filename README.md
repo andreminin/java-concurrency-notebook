@@ -12,9 +12,9 @@ asynchronous programming in Java:
 Compare old and new approaches side-by-side. - Showcase **bad practices** (anti-patterns) and their
 improved **good practice** alternatives. - Build a reference notebook for personal and community use.
 ## Contents
-- `futures/` – Examples using classic `Future` API. - `completablefuture/` – Examples of composition,
-error handling, and pipelines. - `virtualthreads/` – Lightweight concurrency with Project Loom. -
-`bad-vs-good/` – Direct comparisons of problematic vs. recommended code.
+- `samples/` – Examples using classic `Future` API, completablefutures, Lightweight concurrency with Project Loom.
+-`doc/` – Topic with code samples.
+- 'doc/[Spring_async_repositories.md](doc/Spring_async_repositories.md)' Spring async repository best practices
 ## How to Use
 Clone the repository:
 ```bash git clone https://github.com/andreminin/java-concurrency-notebook.git cd
