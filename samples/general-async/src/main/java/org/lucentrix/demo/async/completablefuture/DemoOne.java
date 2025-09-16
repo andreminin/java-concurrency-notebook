@@ -2,7 +2,7 @@ package org.lucentrix.demo.async.completablefuture;
 
 import java.util.concurrent.*;
 
-public class CompletableFutureDemo {
+public class DemoOne {
 
     // Simulate a long-running task
     private static String fetchData(String source) {
@@ -35,7 +35,7 @@ public class CompletableFutureDemo {
         // 2. Chaining operations
         CompletableFuture<String> processedFuture = CompletableFuture
                 .supplyAsync(() -> fetchData("Database"))
-                .thenApply(CompletableFutureDemo::processData)
+                .thenApply(DemoOne::processData)
                 .thenApply(String::toLowerCase);
 
         processedFuture.thenAccept(result -> System.out.println("Chained result: " + result));

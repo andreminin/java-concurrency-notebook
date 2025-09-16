@@ -8,7 +8,7 @@ import java.util.*;
 public class CombinedDemo {
 
     static class SharedResource {
-        private volatile int state = 0;
+        private final int state = 0;
         private static final VarHandle STATE_HANDLE;
 
         static {
