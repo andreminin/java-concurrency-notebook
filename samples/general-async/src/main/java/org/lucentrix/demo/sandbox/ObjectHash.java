@@ -1,4 +1,4 @@
-package org.lucentrix.demo.tricks;
+package org.lucentrix.demo.sandbox;
 
 public class ObjectHash {
 
