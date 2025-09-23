@@ -8,8 +8,8 @@
     <packaging>jar</packaging>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <junit.version>5.10.3</junit.version>
         <mockito.version>5.11.0</mockito.version>
         <lombok.version>1.18.38</lombok.version>
